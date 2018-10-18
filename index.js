@@ -10,7 +10,7 @@ function nowServing(current) {
   let nowServing = "";
   nowServing = current[0];
   current.shift();
-  return nowServing;
+  return `Currently serving ${nowServing}`;
 }
 
 function currentLine(current) {
