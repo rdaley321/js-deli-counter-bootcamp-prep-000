@@ -20,7 +20,8 @@ function currentLine(current) {
   let message = "The line is currently: ";
   for(let i=0; i<current.length; i++) {
     if(i === current.length - 1) {
-      message += `${i+1}. ${current[i]}`;
+     message += `${i+1}. ${current[i]}`;
+     return message;
     }
     message += `${i+1}. ${current[i]}, `;
   }
