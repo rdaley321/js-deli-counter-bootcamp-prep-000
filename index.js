@@ -1,4 +1,5 @@
 function takeANumber(n, name) {
+  n.push(name)
   return `Welcome, ${name}. You are number ${n.length + 1} in line.`;
 }
 
